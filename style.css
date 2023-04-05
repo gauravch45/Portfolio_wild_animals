@@ -1,0 +1,65 @@
+
+body{
+	margin: 0px;
+	background-image: url(Forest-Backgrounds.jpg);
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center		;
+
+}
+
+span{
+	text-align: center;
+}
+
+
+h1 { /*color: white;*/
+	background-color: white;
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink ;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+
+}
+
+
+img { 
+	 width: 450px;
+	 height: 300px;
+	 margin: 10px;
+	 border: solid black;
+	 transition: all 1s;
+
+}
+
+img:hover{ 
+	transform: scale(1.1);
+	
+ }
+
+.foot {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+span{
+	border: 2px solid black;
+	font-family: fantasy;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: #ff99c2;
+  transition: all 0.8s;
+}
+
+span:hover{
+	background: #ffe6f0 ;
+}
